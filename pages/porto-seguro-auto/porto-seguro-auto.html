@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Porto Seguro Auto
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page3" style="background-color:#FFFFFF;" class="card-background-page">
+<div id="portoSeguroAuto-container2">
+    <div id="portoSeguroAuto-markdown5" class="show-list-numbers-and-dots">
+      <p style="color:#4DC5FF;">
+        Olá,
+        <strong>
+          Acácio Amorelli Martins
+        </strong>
+      </p>
+    </div>
+    <div id="portoSeguroAuto-markdown6" class="show-list-numbers-and-dots">
+      <h3 style="color:#4DC5FF; margin-bottom: -5px; margin-top: 34px"  text-center>
+        Vamos começar?
+      </h3>
+    </div>
+  </div>
+	
+	<div id="portoSeguroAuto2-container1">
+		<div class="spacer" style="width:320px;height:7px;" id="portoSeguroAuto2-spacer8"></div>
+		<img src="assets/img/step_1_vamos_comecar.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+	</div>
+	
+  
+<ion-row>
+	<ion-col col-6>
+		<button id="portoSeguroAuto-button5a" ion-button full (click)='accessGalery()' color="positive" block icon-left style="font-size:-7px;border-radius:4px 4px 4px 4px;">
+    <ion-icon name="albums"></ion-icon>
+  </button>
+		
+	</ion-col>
+	<ion-col col-6>
+	<button id="portoSeguroAuto-button5" ion-button full (click)='takePhoto()' color="positive" block icon-left style="font-size:-7px;border-radius:4px 4px 4px 4px;">
+    <ion-icon name="camera"></ion-icon>
+  </button>	
+	</ion-col>
+</ion-row>
+	
+  
+
+	<ion-grid>
+    <ion-row>
+	<!--	
+	<ion-col col-12 *ngFor="let photo of photos; let id = index">
+		<ion-card class="block">
+          <ion-icon name="trash" class="deleteIcon" (click)="deletePhoto(id)"></ion-icon>
+         <img [src]="photo" *ngIf="photo" />
+        </ion-card>	
+	</ion-col>
+	-->
+	<ion-col col-12>
+		<ion-card class="block">
+          <ion-icon name="trash" class="deleteIcon" (click)="deletePhoto()" *ngIf="imageDataRequest"></ion-icon>
+         <img [src]="foto" *ngIf="foto" />
+        </ion-card>	
+	</ion-col>
+		
+		 </ion-row>
+  </ion-grid>
+	
+	<!--<button ion-button  (click)="postRequest()" color="positive" block style="border-radius:8px 8px 8px 8px;">Vistoriar</button>-->
+	<!-- Original quente  -->
+	<button ion-button (click)="postRequest()" color="positive" block style="border-radius:8px 8px 8px 8px;">Continuar</button>
+	
+    <!-- Fake Para teste 
+		<button id="portoSeguroAuto-button6" ion-button color="positive" block style="border-radius:8px 8px 8px 8px;" on-click="goToPortoSeguroAuto2()">Continuar</button>
+		-->
+  <button id="portoSeguroAuto-button9" ion-button outline color="calm" block style="color:#03486F;border-radius:8px 8px 8px 8px;" on-click="goToPage1()">
+    Voltar
+  </button>
+</ion-content>

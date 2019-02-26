@@ -1,0 +1,24 @@
+{
+    "cor": {
+        "RGB": "#ABABAB",
+        "score": 0.995475709438324,
+        "name": "oldlace"
+    },
+    "modelo": {
+        "score": 0.9992349147796631,
+        "tipo": "celta"
+    },
+    "posicao": {
+        "score": 0.9998962879180908,
+        "pos": "dir"
+    },
+    "sinistro": {
+        "pecas": {
+            "faroestraseiro": "2",
+            "tampaportamalas": "1",
+            "parachoque": "1"
+        },
+        "sinistro": "sem sinistro",
+        "score": 0.7587345838546753
+    }
+}

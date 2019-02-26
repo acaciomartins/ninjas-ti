@@ -1,0 +1,33 @@
+{
+    "sinistro": {
+        "croqui": {
+            "sem sinistro": 0.9640084505081177
+        },
+        "orcamento": "R$0.00 a R$0.00"
+    },
+    "cor": {
+        "RGB": "#808080",
+        "score": 0.8363168835639954,
+        "name": "gray"
+    },
+    "modelo": {
+        "score": 0.6311663389205933,
+        "tipo": "celta"
+    },
+    "posicao": {
+        "score": 0.9147136211395264,
+        "pos": "dir"
+    },
+    "vision": {
+        "family car": 0.8728256821632385,
+        "wheel": 0.8432006239891052,
+        "car": 0.9838288426399231,
+        "land vehicle": 0.9683400392532349,
+        "automotive wheel system": 0.8151732087135315,
+        "motor vehicle": 0.9743042588233948,
+        "bumper": 0.8171762824058533,
+        "automotive design": 0.8445366024971008,
+        "vehicle": 0.9656173586845398,
+        "vehicle door": 0.8770996928215027
+    }
+}

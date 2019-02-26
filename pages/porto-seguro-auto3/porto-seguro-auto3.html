@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Porto Seguro Auto
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4" style="background-color:#fffff;">
+	<div id="portoSeguroAuto3-container3">
+		<div class="spacer" style="width:320px;height:7px;" id="portoSeguroAuto3-spacer8"></div>
+		 <h3 style="color:#4DC5FF; margin-bottom: -5px;"  text-center>
+      		Meu sinistro
+    	</h3>
+	
+		<div id="portoSeguroAuto3-container1">
+			<div class="spacer" style="width:320px;height:7px;" id="portoSeguroAuto3-spacer4"></div>
+				<img src="assets/img/step_3_orcamento.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+			</div>
+		
+		<div id="portoSeguroAuto3-markdown7" class="show-list-numbers-and-dots">
+			<p style="color:#4DC5FF; font-size: 16pt" text-center>
+				<strong>Orçamento previsto para reparo</strong>
+			</p>
+			<p style="color:#4DC5FF; font-size: 15pt" text-center>
+				{{ resultado.sinistro.orcamento }}
+			</p>
+		</div>
+		<div id="portoSeguroAuto3-markdown8" class="show-list-numbers-and-dots">
+			<p style="color:#4DC5FF; font-size: 16px" text-left>
+				<strong>Minha franquia: </strong>R$ 4.250,00
+			</p>
+			
+		</div>
+		<div id="portoSeguroAuto3-markdown8" class="show-list-numbers-and-dots">
+			<p style="color:#4DC5FF; font-size: 16px" text-left>
+				<strong>Tempo médio de reparo: </strong>08:00 horas
+			</p>
+		</div>
+		<div id="portoSeguroAuto3-markdown9" class="show-list-numbers-and-dots">
+			<p style="color:#4DC5FF; font-size: 16px"  text-left>
+				<strong>Coberturas: </strong>
+			</p>
+			<ul>	
+			<li>
+				<p style="color:#4DC5FF; font-size: 16px" text-left>
+					Incêndio e Roubo/Furto	
+				</p>
+			</li>
+			<li>
+				<p style="color:#4DC5FF;font-size: 16px" text-left>
+					Danos a Terceiros	
+				</p>
+			</li>
+			<li>
+				<p style="color:#4DC5FF;font-size: 16px" text-left>
+					Passageiros
+				</p>
+			</li>
+			</ul>
+		</div>
+		
+		<div id="portoSeguroAuto3-markdown10" class="show-list-numbers-and-dots">
+			<p style="color:#4DC5FF; font-size: 16pt" text-center>
+				<strong>Encontramos os CAPS mais próximo a você</strong>
+			</p>
+		</div>
+		<div id="portoSeguroAuto3-markdown88" class="show-list-numbers-and-dots">
+			<p style="color:#4DC5FF;font-size: 16px" text-left>
+				Av. Rio Branco, 1448 - Campos Elisios - São Paulo/SP - (11) 3366.1950
+			</p>
+		</div>
+		
+		<img src="assets/img/avaliacao_CAPS.png" style="display:block;width:61%;height:auto;margin:0;" />
+		<img src="assets/img/mapa_caps.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" /> 
+
+	</div>
+  <div class="spacer" style="width:320px;height:24px;" id="portoSeguroAuto3-spacer5"></div>
+  
+	<div id="portoSeguroAuto3-markdown10" class="show-list-numbers-and-dots">
+		<p style="color:#4DC5FF;" text-center>
+			<strong style="font-size: 14pt">Oba! Temos agenda disponível para reparo integral amanhã 09:15, vamos agendar?</strong>
+		</p>
+	</div>
+  <button id="portoSeguroAuto3-button7" ion-button color="positive" full style="border-radius:8px 8px 8px 8px;" on-click="agendar()">
+    Agendar
+  </button>
+	
+  <button id="portoSeguroAuto3-button8" ion-button outline color="stable" block style="color:#03486F;border-radius:8px 8px 8px 8px;" on-click="goToPortoSeguroAuto2()">
+    Voltar
+  </button>
+</ion-content>

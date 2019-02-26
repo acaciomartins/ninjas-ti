@@ -1,0 +1,71 @@
+
+{
+   "family car":0.7633536458015442,
+   "volkswagen":0.8375775814056396,
+   "asphalt":0.8626521229743958,
+   "luxury vehicle":0.6968919038772583,
+   "rim":0.8269967436790466,
+   "technology":0.6610522270202637,
+   "transport":0.8526618480682373,
+   "hood":0.6868464350700378,
+   "compact car":0.5884638428688049,
+   "chevrolet celta":0.6969552636146545,
+   "mid size car":0.873832643032074,
+   "window":0.8071935176849365,
+   "sport utility vehicle":0.664094865322113,
+   "posicao":{
+      "score":0.9288350939750671,
+      "pos":"esq"
+   },
+   "vehicle":0.946606457233429,
+   "electronics":0.5197844505310059,
+   "honda civic hybrid":0.7461760640144348,
+   "off roading":0.7171316146850586,
+   "red":0.950037956237793,
+   "vehicle registration plate":0.8609650731086731,
+   "wheel":0.8088306188583374,
+   "product":0.6607765555381775,
+   "sinistro":{
+      "croqui":{
+         "ql":0.9982800483703613
+      },
+      "sinistro":"sem sinistro",
+      "score":0.7963192462921143,
+      "orcamento":"R$1996.56 a R$3660.36"
+   },
+   "automotive exterior":0.8328140377998352,
+   "mini sport utility vehicle":0.6516216397285461,
+   "electronic device":0.6757456660270691,
+   "personal luxury car":0.7329465746879578,
+   "honda":0.9456302523612976,
+   "alloy wheel":0.8113111257553101,
+   "automotive tire":0.7240309715270996,
+   "automotive design":0.8457297086715698,
+   "modelo":{
+      "score":0.9932305812835693,
+      "tipo":"celta"
+   },
+   "sedan":0.7682828307151794,
+   "mode of transport":0.8750721216201782,
+   "city car":0.7028384208679199,
+   "vehicle door":0.8712989687919617,
+   "auto part":0.8011156916618347,
+   "hatchback":0.7798975110054016,
+   "traffic collision":0.7397387623786926,
+   "cor":{
+      "RGB":"#ABABAB",
+      "score":0.9947946667671204,
+      "name":"oldlace"
+   },
+   "car":0.9722636938095093,
+   "land vehicle":0.983739972114563,
+   "automotive wheel system":0.8187472224235535,
+   "motor vehicle":0.9785094857215881,
+   "honda civic":0.8045614957809448,
+   "street":0.6615345478057861,
+   "mensagem":"Imagem nao reconhecida, e necessario a classificacao manual em ./tf_files_indefinido",
+   "bumper":0.8180767893791199,
+   "full size car":0.7783008813858032,
+   "volkswagen fox":0.8432983756065369,
+   "road":0.8864713907241821
+}

@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Porto Seguro Auto
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4" style="background-color:#fffff;">
+	
+	
+  <div id="portoSeguroAuto2-container3">
+    <div class="spacer" style="width:320px;height:7px;" id="portoSeguroAuto2-spacer8"></div>
+    <h3 style="color:#4DC5FF; margin-bottom: -5px;"  text-center>
+      Análise da avaria
+    </h3>
+    
+    <div id="portoSeguroAuto2-container1">
+		<img src="assets/img/step_2_vistoria.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+		<div class="spacer" style="width:320px;height:7px;" id="portoSeguroAuto2-spacer4"></div>
+	</div>
+	  <!-- <img src="assets/img/Rv5h4GwQ2yy4j5W458Lf_croqui_d02.jpg" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" /> -->
+	  <img [src]="croquiImg" />
+  </div>
+	
+	
+	
+  <div class="spacer" style="width:320px;height:24px;" id="portoSeguroAuto2-spacer5"></div>
+  
+	<div *ngIf="!isOk" id="portoSeguroAuto2-markdown7" class="show-list-numbers-and-dots">
+		<p style="color:#4DC5FF;">
+			<strong>
+				Modelo:
+			</strong>
+			{{ resultado.modelo.tipo }} ({{ resultado.modelo.score }})
+		</p>
+	</div>
+	<div *ngIf="!isOk" id="portoSeguroAuto2-markdown8" class="show-list-numbers-and-dots">
+		<p style="color:#4DC5FF;">
+			<strong>
+				Cor:
+			</strong>
+			{{ resultado.cor.name }} ({{ resultado.cor.score }})
+		</p>
+	</div>
+	<div *ngIf="isOk" id="portoSeguroAuto2-markdown8" class="show-list-numbers-and-dots">
+		<p style="color:#4DC5FF; font-size: 15pt" text-center>
+			<strong>
+				Legal! Seu veículo não possui sinistro!
+			</strong>
+		</p>
+	</div>
+	
+
+	<button *ngIf="!isOk" id="portoSeguroAuto-button6" ion-button color="positive" block style="border-radius:8px 8px 8px 8px;" on-click="goToPortoSeguroAuto3()">Continuar</button>
+	<!--
+	<button id="portoSeguroAuto2-button7" on-click="showLog()" ion-button color="positive" full style="border-radius:8px 8px 8px 8px;">
+    Show Log
+  </button>
+-->
+  <button id="portoSeguroAuto2-button8" ion-button outline color="stable" block style="color:#03486F;border-radius:8px 8px 8px 8px;" on-click="goToPortoSeguroAuto()">
+    Voltar
+  </button>
+</ion-content>
